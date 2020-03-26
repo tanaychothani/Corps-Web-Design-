@@ -1,0 +1,205 @@
+/* GLOBAL */
+
+
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color:#f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+header nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+ header li {
+    float: left;
+    padding: 0px 20px 0px 20px;
+    list-style: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+} 
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header h1{
+    font-weight: bold;
+    margin: 0px;
+}
+
+nav {
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+/* Showcase */
+
+#showcase {
+    background: url(https://jolly-kalam-23776e.netlify.com/corps/img/showcase.jpg) no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff;
+    min-height: 400px;
+    width: 100%;
+}
+
+#showcase h1 {
+    font-size: 55px;
+    margin: 100px 0px 10px 0px;
+}
+
+#showcase p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* newsletter */
+
+#newsletter {
+    background-color:  #35424a;
+    color: #ffffff;
+    padding: 15px;
+}
+
+#newsletter .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#newsletter form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.button_1 {
+    background-color: #e8491d;
+    color: #ffffff;
+    height: 38px;
+    border: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5px;
+}
+
+/* Boxes */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#boxes .box {
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+footer {
+    background-color: #e8491d;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* main */
+article#main-col {
+    width: 65%;
+}
+
+aside#sidebar {
+    width: 30%;
+    margin-top: 10px;
+}
+
+.dark {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#main .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Services */
+
+ul#services li {
+    background-color: #e6e6e6;
+    border: #cccccc solid 1px;
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+aside#sidebar .quote input{
+    width: 90%;
+    padding: 5px;
+}
+
+aside#sidebar textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+
+.quote .button_1{
+    margin: 0px;
+}
